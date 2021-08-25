@@ -1,0 +1,32 @@
+.dr-basic-table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+.dr-tbl-time {
+  width: min-content;
+}
+
+.dr-tbl-content {
+  width: fit-content;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th,
+td {
+  padding: 10px 20px;
+}
+
+.dr-review {
+  width: 40%;
+  display: inline-block;
+  margin: 10px;
+}
