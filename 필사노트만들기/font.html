@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹폰트</title>
+
+
+<style type="text/css">
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@font-face {  /*적용할 폰트 준비하기*/
+    font-family: "hybdam";  /*적용할 때 사용할 이름 지정*/
+    src: url("fonts/hybdam.eot"); /*적용할 폰트 경로*/
+    src:local(''),url("fonts/hybdam.woff") format("woff");
+}
+body{font-size: 30px}
+#textBox p{margin-bottom:10px}
+#textBox .ex01{
+    font-family: "궁서",arial;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+#textBox .ex02{
+    font-family: 'Nanum Pen Script', cursive;,arial;
+    border: 1px solid #ccc;
+    padding: 10px
+}
+#textBox .ex03{
+    font-family: font-family: 'Amatic SC', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;, arial;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+    <h1>웹폰트</h1>
+    <h2>서버측 폰트를 사용할 수 있는 font-family 를 생성</h2>
+    <div id="textBox">
+        <p class="ex01">돋움, dotum</p>
+        <p class="ex02">굴림, gulim</p>
+        <p class="ex03">휴먼 가느샘체, human sam</p>
+    </div>
+</body>
+</html>
