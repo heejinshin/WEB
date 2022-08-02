@@ -1,3 +1,1 @@
-# WEB
-실습/프로젝트
-- html, css, js연습을 위한
+html/ css/ js 연습용 미니프로젝트 
